@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab); 
+
+html, body {
+    height:100%;
+     
+    background: -webkit-linear-gradient(rgba(255,255,255,0.4)0%,rgba(83,83,83,0.5) 50%, rgba(0,0,0,1) 100%), url("https://source.unsplash.com/random") no-repeat center center fixed;
+    background: -moz-linear-gradient(rgba(255,255,255,0.4)0%,rgba(83,83,83,0.5) 50%, rgba(0,0,0,1) 100%), url("https://source.unsplash.com/random") no-repeat center center fixed;
+    background: -o-linear-gradient(rgba(255,255,255,0.4)0%,rgba(83,83,83,0.5) 50%, rgba(0,0,0,1) 100%), url("https://source.unsplash.com/random") no-repeat center center fixed;
+    background: linear-gradient(rgba(255,255,255,0.4)0%,rgba(83,83,83,0.5) 50%, rgba(0,0,0,1) 100%), url("https://source.unsplash.com/random") no-repeat center center fixed;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
+}
+/*HOMEPAGE CSS */
+div.icon {
+    height:auto;
+    width: auto;    
+}
+
+#icons {
+    margin-top:55%;
+}
+
+span {
+    float:left;
+    clear:left;
+}
+
+div span {
+    color:rgb(255,255,255);
+    font-family: 'Josefin Slab', serif;
+    font-size: 52px;
+    padding-bottom: 0px;
+    opacity: 0;
+    
+    -webkit-animation: Fade 2s ease-in;
+    -moz-animation: Fade 2s ease-in;
+    -o-animation: Fade 2s ease-in;
+    animation: Fade 2s ease-in;
+    
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+       
+}
+
+@-webkit-keyframes Fade {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes Fade {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes Fade {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes Fade {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+div span:nth-child(1) {
+    animation-delay: 0.8s;
+}
+
+div span:nth-child(2) {
+    animation-delay: 1.2s;
+}
+
+div span:nth-child(3) {
+    animation-delay: 1.8s;
+}
+/*PROJECTS CSS */
+
+
+div p{
+    color:rgb(255,255,255);
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px;   
+}
+
+.img-responsive{
+    margin: 10% 10% 10% 0;
+    float:left;
+    width: 360px;
+    height: 200px;
+    opacity: 0.6;
+    
+    transition: 
+}
+
+.img-responsive:hover{
+    opacity:inherit;
+    -ms-transform: scale(1.1,1.1); /* IE 9 */
+    -webkit-transform: scale(1.1,1.1); /* Safari */
+    transform: scale(1.1,1.1); /* Standard syntax */
+}
+

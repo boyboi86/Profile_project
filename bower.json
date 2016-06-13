@@ -1,0 +1,16 @@
+{
+  "name": "SPA_profile",
+  "homepage": "https://github.com/boyboi86/Profile_project",
+  "authors": [
+    "boyboi86 <boyboi86@gmail.com>"
+  ],
+  "description": "personal page",
+  "main": "index.htm",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.6",
+    "angular-route": "^1.5.6",
+    "font-awesome": "fontawesome#^4.6.3"
+  }
+}

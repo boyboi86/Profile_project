@@ -13,6 +13,7 @@ html, body {
     -o-background-size: cover;
     background-size: cover;   
 }
+
 /*HOMEPAGE CSS */
 div.icon {
     height:auto;
@@ -75,29 +76,3 @@ div span:nth-child(2) {
 div span:nth-child(3) {
     animation-delay: 1.8s;
 }
-/*PROJECTS CSS */
-
-
-div p{
-    color:rgb(255,255,255);
-    font-family: 'Josefin Slab', serif;
-    font-size: 30px;   
-}
-
-.img-responsive{
-    margin: 10% 10% 10% 0;
-    float:left;
-    width: 360px;
-    height: 200px;
-    opacity: 0.6;
-    
-    transition: 
-}
-
-.img-responsive:hover{
-    opacity:inherit;
-    -ms-transform: scale(1.1,1.1); /* IE 9 */
-    -webkit-transform: scale(1.1,1.1); /* Safari */
-    transform: scale(1.1,1.1); /* Standard syntax */
-}
-

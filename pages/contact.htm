@@ -1,11 +1,11 @@
-<div class='container-fluid'>
+<div class='container-fluid' ng-controller='contactCtrl'>
     <div class='row'>
         <div class='col-md-12'><p>About Me</p></div>
         <br/>
         <div class='col-md-12'>
-            <span>MEAN developer</span>
-            <span>Dog lover</span>
-            <span>Avid reader</span>
+            
+            <span ng-repeat='i in description'>{{ i }}</span>
+            
         </div>
     </div>
 </div>
